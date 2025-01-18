@@ -95,7 +95,7 @@ const LandingPage = () => {
                             <span>GitHub</span>
                         </a>
                         <a
-                            href="https://twitter.com/BulbAI"
+                            href="#"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-amber-700 transition-colors flex items-center space-x-2"
