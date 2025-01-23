@@ -41,7 +41,9 @@ const LandingPage = () => {
                     </p>
                     <div className="flex justify-center">
                         <a
-                            href="#"
+                            href="https://docs.bulbai.xyz/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-gradient-to-r from-amber-700 to-orange-600 text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity shadow-md"
                         >
                             View Docs
@@ -75,6 +77,146 @@ const LandingPage = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Token Section */}
+            <section id="token" className="py-20 bg-white relative z-10">
+                <div className="max-w-6xl mx-auto px-4">
+                    <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+                        $BULB
+                    </h2>
+                    <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 mb-8">
+                        <div className="mb-6">
+                            <h3 className="text-xl font-semibold text-gray-900 mb-3">Token Address</h3>
+                            <a
+                                href="https://sonicscan.org/token/0xf3e3613b0dc9c6578baaca1e3e6c2412cc0e9993"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-amber-700 hover:text-orange-600 break-all"
+                            >
+                                0xf3e3613b0dc9c6578baaca1e3e6c2412cc0e9993
+                            </a>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-semibold text-gray-900 mb-4">Key Events</h3>
+                            <ul className="space-y-4 text-gray-600">
+                                <li className="flex items-start">
+                                    <span className="text-amber-700 mr-2">•</span>
+                                    Completed a public sale that raised 7,079,564 $YOKO from 41 participants
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-amber-700 mr-2">•</span>
+                                    Bonded $BULB agent with 1,700,000 YOKO
+                                    <a
+                                        href="https://sonicscan.org/tx/0xf014a23673e0b7a1c59680c9eaf79f8524b43cae010c657c05c25e36e149d34e"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-amber-700 hover:text-orange-600 ml-1"
+                                    >
+                                        (View Transaction)
+                                    </a>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-amber-700 mr-2">•</span>
+                                    Added 5,359,453 $YOKO and 220,169,104 $BULB into Spooky LP
+                                    <a
+                                        href="https://sonicscan.org/tx/0x85317e974ad0b71d462f74aea1ba56393846b3469a80c40830eb86bb43348ad0"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-amber-700 hover:text-orange-600 ml-1"
+                                    >
+                                        (View Transaction)
+                                    </a>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-amber-700 mr-2">•</span>
+                                    Locked Spooky LP for 3 months
+                                    <a
+                                        href="https://sonicscan.org/tx/0xddc89dc8b8b0da6a4366a681140dece3c9700373bab8baab71fcefa233fa513d"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-amber-700 hover:text-orange-600 ml-1"
+                                    >
+                                        (View Transaction)
+                                    </a>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-amber-700 mr-2">•</span>
+                                    Locked 100M $BULB for 6 months as per team tokens
+                                    <a
+                                        href="https://sonicscan.org/tx/0x3a232e266563ce9511796b9f06c9e80013072551a6a7b5a2e7dc95c9430bd14f"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-amber-700 hover:text-orange-600 ml-1"
+                                    >
+                                        (View Transaction)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Tokenomics Section */}
+            <section id="tokenomics" className="py-20 bg-white relative z-10">
+                <div className="max-w-6xl mx-auto px-4">
+                    <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+                        Tokenomics
+                    </h2>
+                    <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 mb-8">
+                        <div className="space-y-4">
+                            <div className="flex items-start">
+                                <span className="text-amber-700 mr-2 font-bold">30%</span>
+                                <div>
+                                    <span className="font-semibold">LP on Spookyswap</span>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <span className="text-amber-700 mr-2 font-bold">10%</span>
+                                <div>
+                                    <span className="font-semibold">Team</span>
+                                    <p className="text-gray-600">6 month lockup with 12 month vesting</p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <span className="text-amber-700 mr-2 font-bold">5%</span>
+                                <div>
+                                    <span className="font-semibold">Ecosystem Incentives</span>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <span className="text-amber-700 mr-2 font-bold">5%</span>
+                                <div>
+                                    <span className="font-semibold">Yoko Community</span>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <span className="text-amber-700 mr-2 font-bold">50%</span>
+                                <div>
+                                    <span className="font-semibold">Private Sale</span>
+                                    <div className="flex items-center mt-1">
+                                        <span className="text-gray-600 mr-2">Claim contract:</span>
+                                        <a
+                                            href="https://sonicscan.org/address/0xb7722849b098f2097e83495366dbdd4f323ebc32"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-amber-700 hover:text-orange-600 break-all"
+                                        >
+                                            0xb7722849b098f2097e83495366dbdd4f323ebc32
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
             {/* Links Section */}
             <section id="contact" className="py-20 bg-white relative z-10">
